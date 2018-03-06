@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+    <item id="base">
+		<component id="sum">			
+			<in_num>2</in_num>
+			<out_num>1</out_num>
+		</component>
+		<component id="reduce">			
+			<in_num>3</in_num>
+			<out_num>5</out_num>
+		</component>
+	</item>
+	<item id="test">
+		<component id="ttt">			
+			<in_num>6</in_num>
+			<out_num>7</out_num>
+		</component>
+		<component id="ggg">			
+			<in_num>8</in_num>
+			<out_num>9</out_num>
+		</component>
+	</item>
+</body>
