@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <body>
     <item id="base">
+		<filename>base.R</filename>
 		<component id="sum">			
 			<in_num>2</in_num>
 			<out_num>1</out_num>
+			<in_name_1>left_sum</in_name_1>
+			<in_name_2>right_sum</in_name_2>
+			<out_name_1>result_sum</out_name_1>
 		</component>
 		<component id="reduce">			
-			<in_num>3</in_num>
-			<out_num>5</out_num>
+			<in_num>2</in_num>
+			<out_num>1</out_num>
+			<in_name_1>left_reduce</in_name_1>
+			<in_name_2>right_reduce</in_name_2>
+			<out_name_1>result_reduce</out_name_1>			
 		</component>
 	</item>
 	<item id="test">
+		<filename>test.R</filename>
 		<component id="ttt">			
 			<in_num>6</in_num>
 			<out_num>7</out_num>
